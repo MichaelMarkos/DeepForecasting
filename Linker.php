@@ -1,14 +1,14 @@
 <?php
-class Antesh{
+class Linker{
 	private
 		//Configs
 		$_cmd_src = 'c:\WINDOWS\system32\cmd.exe', //OR 'cmd'
 		//Path to Anaconda activate.bat file
-		$_conda_act = 'C:\Users\MMES\Anaconda3\Scripts\activate.bat',
+		$_conda_act = 'C:\Users\PC_Name\Anaconda3\Scripts\activate.bat',
 		//environment name
 		$_env_name = 'tensorflow',
 		//Python version (in use!)
-		$_python = 'C:\Users\MMES\Anaconda3\envs\tensorflow\python.exe',
+		$_python = 'C:\Users\PC_Name\Anaconda3\envs\tensorflow\python.exe',
 		
 		
 		//environment activate cmd
